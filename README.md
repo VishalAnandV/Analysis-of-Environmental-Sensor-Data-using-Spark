@@ -7,6 +7,6 @@ The goal of the project is to analyse air quality data captured from a network o
 ### Questions: 
 - Identify the top 10 countries in terms of average air quality improvement over the previous 24 hours as well as the current averaged air quality indices of each. As far as possible use the country field in the sensor data to identify the country.
 
-- Using the geo-coordinates from the sensor data, group the data into smaller regions using an appropriate clustering algorithm. Then determine the top 50 regions in terms of air quality improvement over the previous 24 hours.
+- Using the geo-coordinates from the sensor data, group the data into smaller regions using an appropriate clustering algorithm. Then determine the top 50 regions in terms of air quality improvement over the period of previous 24 hours.
 
 - Calculate the longest streaks of good air quality (ie low index values) and display as a histogram. The histogram should have 20 buckets ranging from zero to the longest streak of good air quality. State the period over which the data was collected for the histogram.
